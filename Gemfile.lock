@@ -222,6 +222,11 @@ GEM
       sprockets (> 3.0)
       sprockets-rails
       tilt
+    sentry-rails (5.14.0)
+      railties (>= 5.0)
+      sentry-ruby (~> 5.14.0)
+    sentry-ruby (5.14.0)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
     sprockets (4.2.1)
       concurrent-ruby (~> 1.0)
       rack (>= 2.2.4, < 4)
@@ -274,6 +279,8 @@ DEPENDENCIES
   rspec-rails (~> 6.0)
   rubocop (~> 1.21)
   sassc-rails
+  sentry-rails (~> 5.14)
+  sentry-ruby (~> 5.14)
   sprockets-rails
   stimulus-rails
   turbo-rails

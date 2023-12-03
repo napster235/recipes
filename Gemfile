@@ -43,7 +43,7 @@ gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 gem 'bootsnap', require: false
 
 # Use Sass to process CSS
-gem "sassc-rails"
+gem 'sassc-rails'
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
@@ -65,4 +65,8 @@ gem 'rspec-rails', '~> 6.0'
 gem 'dockerfile-rails', '>= 1.5', group: :development
 gem 'rubocop', '~> 1.21'
 
-gem "cssbundling-rails", "~> 1.3"
+gem 'cssbundling-rails', '~> 1.3'
+
+gem 'sentry-ruby', '~> 5.14'
+
+gem 'sentry-rails', '~> 5.14'
